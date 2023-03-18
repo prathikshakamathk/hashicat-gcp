@@ -1,5 +1,5 @@
 module "vpc" {
-    source  = "app.terraform.io/chrip-cert-org/network/google"
+    source  = "terraform-google-modules/network/google"
     version = "3.4.0"
 
     project_id   = var.project
