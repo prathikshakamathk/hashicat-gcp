@@ -2,7 +2,7 @@ module "vpc" {
     source  = "app.terraform.io/chrip-cert-org/network/google"
     version = "3.4.0"
 
-    project_id   = "var.project"
+    project_id   = var.project
     network_name = "gaurav-network"
     routing_mode = "GLOBAL"
 
