@@ -5,7 +5,7 @@ module "network" {
   # insert required variables here
 
     project_id   = var.project
-    network_name = "gaurav-network"
+    network_name = "gaurav-networ-new"
     routing_mode = "GLOBAL"
 
     subnets = [
